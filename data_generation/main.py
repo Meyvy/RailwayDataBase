@@ -11,12 +11,7 @@ import threading
 from barnum import gen_data
 from numpy import insert, tri
 from datetime import date, timedelta
-# # ##change own_company to own_company_id
-# # ##remove train capacity
-# # ##remove company location
-# # ##remove detail
-# # ##create graph data structure
-# # ##create 
+
 
 class Empty(Exception):
     pass
@@ -181,8 +176,8 @@ class Graph:
         return None
 
 CONFIG = {
-    'user' : 'eyvy',
-    'password' : 'qazWSXedc1380@',
+    'user' : '',
+    'password' : '',
     'host' : 'localhost',
     'database' : 'Train'
 }
